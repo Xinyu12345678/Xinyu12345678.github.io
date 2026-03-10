@@ -1,6 +1,3 @@
-#define a function, making sure "age" is a positive integer
-#def positive(x):
-#   return x>0 
 #store value of age, weight,gender,Cr
 #Validate all inputs meet the requirments
 #1.age<100(integer)

@@ -21,7 +21,7 @@ if gender not in ["male","female"]:
     exit()
 Cr=float(input("your Cr (µmol/l):"))
 if not 0<Cr<100:
-    print(f"Cr is invalid:must be 0<Cr<100")
+    print(f"Cr {Cr} is invalid:must be 0<Cr<100")
     exit()
 if gender=="male":
     CrCl=(140-age)*weight/(72*Cr)

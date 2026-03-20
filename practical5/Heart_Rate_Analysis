@@ -18,7 +18,7 @@ for i in heart_rates:
         high+=1
 print(f"the number of patients falling in the low category is {low}\nthe number of patients falling in the normal category is {normal}\nthe number of patients falling in the high category is {high}")
 #identify which category contains the largest number of patients
-catergory={"low(<60)":low,"normal(60~120)":normal,"high(>120)":high}
+catergory={"low(<60bpm)":low,"normal(60~120bpm)":normal,"high(>120bpm)":high}
 catergory_max=max(catergory,key=catergory.get)
 print(f"the catergory {catergory_max} contains the largest number of patients")
 import matplotlib.pyplot as plt

@@ -1,5 +1,5 @@
 ## Welcome 
-
+<link rel="stylesheet" href="/assets/css/style.css">
 My name is Shou Xinyu. 
 I am an IBI1 student at the Zhejiang University - University of Edinburgh (ZJE) Institute.
 This is my first personal webpage built with GitHub page.
